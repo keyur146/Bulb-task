@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb task</title>
+</head>
+<body>
+    <header>
+        <h1>bulb on off project in javascript</h1>
+    </header>
+    <img id="bulb" height="150px" width="100px" src="./Off.png" alt=""><br>
+    <button type="button" onclick="On()">ON</button>
+    <button type="button" onclick="Off()">OFF</button>
+    <button type="button" onclick="Hide()">HIDE</button>
+    <button type="button" onclick="Show()">SHOW</button>
+
+    <script>
+        function  On() {document.getElementById("bulb").src="./On.png"          
+        }
+        function  Off() {document.getElementById("bulb").src="./Off.png"          
+        }
+        function  Hide() {document.getElementById("bulb").style.display="none"          
+        }
+        function  Show() {document.getElementById("bulb").style.display="block"      
+        }
+    </script>
+</body>
+</html>
